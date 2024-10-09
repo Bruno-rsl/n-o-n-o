@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #4b0082; /* Cor roxa */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #6a0dad; /* Um tom de roxo mais escuro */
+}
+
+nav a {
+    color: #4b0082;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+form {
+    background-color: #e0d5f0; /* Fundo claro para o formulário */
+    padding: 20px;
+    border-radius: 5px;
+}
