@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" required>
+
+        <label>Sexo:</label>
+        <input type="checkbox" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="checkbox" id="feminino" name="sexo" value="feminino">
+        <label for="feminino">Feminino</label>
+
+        <h1>Denunciar</h1>
+        <label for="denuncia">Selecione a denúncia:</label>
+        <select id="denuncia" name="denuncia">
+            <option value="assédio">Assédio</option>
+            <option value="discriminação">Discriminação</option>
+            <option value="outra">Outra</option>
+        </select>
+
+        <label for="descricao">Descrição do ocorrido:</label>
+        <textarea id="descricao" name="descricao" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
